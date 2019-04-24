@@ -66,7 +66,7 @@ class Person
     self.happiness += (amount)
     friend.happiness += (amount)
     puts "Hi #{friend}! It's Stella. How are you?"
-    puts "Hi #{self}! It's Felix. How are you?"
+    puts "Hi #{self.}! It's Felix. How are you?"
   end 
     
   
