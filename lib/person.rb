@@ -61,6 +61,11 @@ class Person
     return "♪ another one bites the dust ♫"
     @hygiene = amount
   end 
+  
+  def call_friend (friend, amount=3)
+    self.happiness += (amount)
+    puts "Hi #{friend}! It's Stella. How are you?"
+  end 
     
   
 end 
