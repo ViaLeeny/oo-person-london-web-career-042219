@@ -72,6 +72,10 @@ class Person
       puts "Hi #{caller}! It's Felix. How are you?"
     end
   end 
+  
+  def start_conversation (person, topic)
+    
+  end 
     
   
 end 
