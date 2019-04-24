@@ -76,15 +76,15 @@ class Person
   def start_conversation (person, topic)
     
     if topic = "politics"
-      return "blah blah partisan blah lobbyist"
+      puts "blah blah partisan blah lobbyist"
        self.happiness += -2
        person.happiness += -2
     elsif topic = "weather"
       self.happiness += 1
       person.happiness += 1
-      return "blah blah sun blah rain"
+      puts "blah blah sun blah rain"
     else
-      return "blah blah blah blah blah"
+      puts "blah blah blah blah blah"
     end 
     
   end 
