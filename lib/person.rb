@@ -54,7 +54,7 @@ class Person
     
   end 
   
-   def workout(amount_1=3, amount_2=1)
+   def work_out(amount_1=3, amount_2=1)
     self.hygiene -= (amount_1)
     self.happiness+= (amount_2)
   
