@@ -64,7 +64,6 @@ class Person
   
   def call_friend (friend, amount=3 )
       caller = self.name
-      callee = friend
       self.happiness += (amount)
       friend.happiness += (amount)
     if caller = self.name
