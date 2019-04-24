@@ -82,9 +82,9 @@ class Person
     elsif topic == "weather"
       self.happiness += 1
       person.happiness += 1
-      puts "blah blah sun blah rain"
+      return "blah blah sun blah rain"
     else
-      puts "blah blah blah blah blah"
+      return "blah blah blah blah blah"
     end 
   end
   
