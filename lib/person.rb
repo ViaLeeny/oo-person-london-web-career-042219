@@ -66,11 +66,11 @@ class Person
       
       self.happiness += (amount)
       friend.happiness += (amount)
-    if caller = self.name
+
       puts "Hi #{friend}! It's Stella. How are you?"
-    else 
+
       puts "Hi #{self.name}! It's Felix. How are you?"
-    end
+
   end 
   
   def start_conversation (person, topic)
