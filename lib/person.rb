@@ -62,7 +62,7 @@ class Person
     @hygiene = amount
   end 
   
-  def call_friend (friend, amount=3)
+  def call_friend (friend, amount=3, @name)
     self.happiness += (amount)
     friend.happiness += (amount)
     puts "Hi #{friend}! It's Stella. How are you?"
