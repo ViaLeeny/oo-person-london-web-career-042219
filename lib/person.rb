@@ -53,6 +53,12 @@ class Person
     return "♪ Rub-a-dub just relaxing in the tub ♫"
     @hygiene = amount
   end 
+  
+   def workout (amount=3)
+    @hygiene += amount
+    return "♪ Rub-a-dub just relaxing in the tub ♫"
+    @hygiene = amount
+  end 
     
   
 end 
