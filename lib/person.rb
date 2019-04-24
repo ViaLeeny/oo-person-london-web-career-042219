@@ -55,7 +55,8 @@ class Person
   end 
   
    def workout (amount=3)
-    @hygiene += amount
+    @happiness += 2
+    @hygiene -= amount
     return "♪ another one bites the dust ♫"
     @hygiene = amount
   end 
