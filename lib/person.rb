@@ -56,7 +56,7 @@ class Person
   
    def workout (amount=3)
     @hygiene += amount
-    return "♪ Rub-a-dub just relaxing in the tub ♫"
+    return "♪ another one bites the dust ♫"
     @hygiene = amount
   end 
     
