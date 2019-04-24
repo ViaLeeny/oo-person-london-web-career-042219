@@ -64,6 +64,7 @@ class Person
   
   def call_friend (friend, amount=3)
     self.happiness += (amount)
+    friend.happiness += (amount)
     puts "Hi #{friend}! It's Stella. How are you?"
   end 
     
