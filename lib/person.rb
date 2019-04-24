@@ -48,7 +48,7 @@ class Person
   end 
     
   
-  def take_bath(amount)
+  def take_bath(amount=4)
     @hygiene += amount
     return "♪ Rub-a-dub just relaxing in the tub ♫"
 
