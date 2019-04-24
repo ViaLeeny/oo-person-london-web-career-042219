@@ -81,8 +81,8 @@ class Person
       self.happiness += (1)
       person.happiness += (1)
     else
-      puts 
-    
+      puts "blah blah blah blah blah"
+    end 
     
   end 
     
